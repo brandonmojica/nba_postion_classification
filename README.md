@@ -15,7 +15,7 @@ The graph below is very interesting. It shows the change over time regarding the
 
 
 ## Methods Used
-I used the K-means clustering algorithm to segment the players based on their performance stats. The stats that were used consisted of, Offensive Rebound %, Defensive Rebound %, Assist %, Block %, Turnover %, and distance from the shots taken (0 - 3 feet, 3 -10 feet, 10 -16 feet, 16 feet - 3pt line). All of these stats were taken per 100 possession and then normalized for uniformity. To note, I eliminated platers that were not relevant in the analysis. So players that did not play more than 400 minutes were taken out. 
+I used the K-means clustering algorithm to segment the players based on their performance stats. The stats that were used consisted of, Offensive Rebound %, Defensive Rebound %, Assist %, Block %, Turnover %, and distance from the shots taken (0 - 3 feet, 3 -10 feet, 10 -16 feet, 16 feet - 3pt line). All of these stats were taken per 100 possession and then normalized for uniformity. To note, I eliminated players that were not relevant in the analysis. So players that did not play more than 400 minutes were taken out. 
 
 ## Cluster Results 
 After picking 12 different types of clusters for the different types of roles, I was able to segment players based on the stats into roles on the team for which I gave them those labels. 
